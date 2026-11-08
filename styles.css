@@ -11,9 +11,14 @@ body{
     color:aliceblue;
 
 }
+
 .hero-section{
-    flex-direction: column;
-    padding: 48px;
+    flex-direction: row;
+    padding: 150px ;
+    
+    justify-content: space-between;
+    align-items: center;
+    gap:300px;
 
 }
 
@@ -21,7 +26,7 @@ body{
 
     flex-direction: row;
     justify-content: space-between;
-    padding: 8px 48px;
+    padding: 24px 150px;
 }
 
 .logo{
@@ -35,6 +40,8 @@ ul{
     justify-content: space-around;
     gap:20px;
     list-style-type: none;
+    padding:0px;
+    margin: 0px;;
     
 }
 
@@ -50,5 +57,58 @@ ul{
 }
 
 .hero-button{
-    color:#3882F6;
+    background-color:#3882F6;
+    color: aliceblue;
+    padding: 8px 32px;
+    margin: 16px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-image{
+    flex:1;
+    height:300px;
+    width: 500px;
+}
+
+.info-section{
+    text-align:center;
+    padding:48px
+}
+
+.info-heading{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-image{
+    width: 200px;
+    height:200px;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.sections{
+    /*display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;*/
+    max-width:200px;    
+}
+
+.info-text{
+    display:flex;
+    gap:48px;
+    padding:48px;
+    justify-content: center;
+    
+
 }
