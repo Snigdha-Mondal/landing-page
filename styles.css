@@ -109,6 +109,30 @@ ul{
     gap:48px;
     padding:48px;
     justify-content: center;
-    
+}
 
+.quote-section{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    
+    /*font-weight: 300;*/
+    font-style: italic;
+    padding:150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    /*max-width: 200px;*/
+}
+
+.quote-main,
+.quote-sub{
+    max-width:940px;
+    font-weight: 300;
+    color: #1F2937;
+
+}
+
+.quote-sub{
+    text-align: right;
 }
